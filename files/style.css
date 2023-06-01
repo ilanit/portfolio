@@ -91,6 +91,13 @@ h2 {
 	font-weight:bold;
 	margin:0px;
 }
+h2.subHeading {
+	font-weight:lighter;
+	font-size:18px;
+	font-style: italic;
+	line-height: 30px;
+	padding-bottom:22px;
+}
 h3 {
 	font-family: 'Open Sans', sans-serif;
 	font-size:24px;
@@ -320,7 +327,7 @@ header {
 	margin-top:0px;
 	position: relative;
 	z-index: 15;
-	background:#063143;
+	background:#023047;
 }
 .navbar-wrapper .container {
 	padding:0px;
@@ -333,7 +340,7 @@ header {
 }
 .navbar.navbar-inverse.navbar-static-top {
 	margin:0px auto;
-	background:#063143;
+	background:#023047;
 	color:#c3c8d6;
 	border:none;
 	font-family: 'Open Sans', sans-serif;
@@ -391,7 +398,7 @@ header {
 	margin-bottom: 20px;
 }
 .aboutme {
-	background:#52bbba;
+	background:#219ebc;
 	color:#fff;
 	position:relative;
 }
@@ -400,7 +407,7 @@ header {
 	padding-bottom:75px;
 }
 .aboutTop {
-	background:#52bbba;
+	background:#219ebc;
 	height:60px;
 }
 .spHeight .aboutTop {
@@ -410,7 +417,7 @@ header {
 	font-size:16px;
 	font-family: 'Open Sans', sans-serif;
 	font-weight:0;
-	background:#063143;
+	background:#023047;
 	color: #c3c8d6;
 	padding:16px 22px;
 	display:inline-block;
@@ -433,7 +440,7 @@ header {
 }
 .technical {
 	background:#eeeeee;
-	color:#063143;
+	color:#023047;
 }
 .technical .container {
 	padding-top:85px;
@@ -443,10 +450,10 @@ header {
 	padding-bottom:41px;
 }
 .technical p {
-	color:#063143;
+	color:#023047;
 }
 .technical h2 {
-	color:#e74e5f;
+	color:#ffb703;
 }
 .technical .skillsArea {
 	padding:0px;
@@ -476,9 +483,9 @@ header {
 	font-weight:700;
 	text-transform:uppercase;
 }
-.skilBg {
+/*.skilBg {
 	background:url(../images/skills.png) no-repeat 0 0;
-}
+}*/
 .chart {
 	position: relative;
 	display: inline-block;
@@ -495,7 +502,7 @@ header {
 .percent {
 	display: inline-block;
 	font-size:21px;
-	color:#063143;
+	color:#023047;
 	line-height: 152px;
 	z-index: 2;
 }
@@ -521,7 +528,7 @@ header {
 	padding-bottom:90px;
 }
 .exprience h2 {
-	color:#e74e5f;
+	color:#e63946;
 }
 .exprience p {
 	color:#84868d;
@@ -545,7 +552,7 @@ header {
 .workYear {
 	font-size:17px;
 	color:#fff;
-	background:#e74e5f;
+	background:#e63946;
 	text-align:center;
 	width:120px;
 	height:120px;
@@ -571,11 +578,11 @@ header {
 	line-height:21px;
 }
 .exCon h4 {
-	color:#063143;
+	color:#023047;
 	padding-bottom:3px;
 }
 .exCon h5 {
-	color:#063143;
+	color:#023047;
 }
 /*----------------------------------------------------
  9.	Education Style
@@ -588,7 +595,7 @@ header {
 	padding-bottom:90px;
 }
 .education h2 {
-	color:#52bbba;
+	color:#219ebc;
 }
 .education p {
 	color:#84868d;
@@ -617,13 +624,13 @@ header {
 	border-left-color:#e5e4e4;
 }
 .education .workYear {
-	background:#52bbba;
+	background:#219ebc;
 }
 /*----------------------------------------------------
  10. Protfolio Style
 ------------------------------------------------------*/
 .protfolio {
-	background:#e74e5f;
+	background:#8ecae6;
 }
 .protfolio .container {
 	padding-top:85px;
@@ -658,19 +665,19 @@ header {
 	text-transform:uppercase;
 	display:block;
 	text-decoration:none;
-	border:solid 1px #f3a2ab;
+	border:solid 1px #219ebc;
 	transition-duration: 0.2s;
 	-webkit-transition-duration: 0.2s;
 }
 .portfolioFilter ul li a:hover {
-	border:solid 1px #c21c4b;
-	color:#c21c4b;
+	border:solid 1px #219ebc;
+	color:#219ebc;
 	transition-duration: 0.2s;
 	-webkit-transition-duration: 0.2s;
 }
 .portfolioFilter ul li a.current {
-	background:#c21c4b;
-	border:solid 1px #c21c4b;
+	background:#219ebc;
+	border:solid 1px #219ebc;
 	color:#fff;
 }
 ul.portfolioContainer {
@@ -845,10 +852,11 @@ ul.portfolioContainer li:hover span.hoverBox .linKed {
 }
 .contact .container {
 	padding-top:85px;
-	padding-bottom:90px;
+	padding-bottom:65px;
 }
 .contact h2 {
-	color:#e74e5f;
+	color:#219ebc;
+	padding-bottom: 40px;
 }
 .contact p {
 	color:#84868d;
@@ -879,7 +887,7 @@ ul.portfolioContainer li:hover span.hoverBox .linKed {
 	background:url(../images/map-bro.png) repeat-x 0 100%;
 }
 .contactDetails {
-	background:#063143;
+	background:#023047;
 }
 .contactDetails .container {
 	padding-top:85px;
@@ -930,7 +938,7 @@ ul.portfolioContainer li:hover span.hoverBox .linKed {
 	font-style:italic;
 }
 .conForm .submitBnt {
-	background:#e74e5f;
+	background:#ffb703;
 	font-family: 'Open Sans', sans-serif;
 	color:#fff;
 	font-size:16px;
@@ -948,11 +956,11 @@ ul.portfolioContainer li:hover span.hoverBox .linKed {
 	padding-left:0px !important;
 }
 #success_page {
-	color: #52bbba;
+	color: #219ebc;
 	font-weight: 500;
 }
 .error_message {
-	color: #e74e5f;
+	color: #ffb703;
 	padding-bottom: 15px;
 	font-weight: 500;
 }
@@ -963,7 +971,7 @@ ul.portfolioContainer li:hover span.hoverBox .linKed {
  12. Footer Style
 ------------------------------------------------------*/
 .footer {
-	background:#52bbba;
+	background:#219ebc;
 }
 .footer .container {
 	padding:40px 0;
@@ -977,7 +985,7 @@ ul.portfolioContainer li:hover span.hoverBox .linKed {
 	display:inline-block;
 	text-align:center;
 	background:#ffffff;
-	color:#52bbba;
+	color:#219ebc;
 	line-height:42px;
 	margin:0 6px;
 	width:42px !important;
@@ -986,13 +994,13 @@ ul.portfolioContainer li:hover span.hoverBox .linKed {
 	border-radius: 50%;
 }
 .footer ul li:hover {
-	background:#0a9f9f;
+	background:#219ebc;
 }
 .footer ul li:hover a {
 	color:#fff;
 }
 .footer ul li a {
-	color:#52bbba;
+	color:#219ebc;
 	width:42px !important;
 	height:42px !important;
 }
