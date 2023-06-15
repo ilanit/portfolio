@@ -389,13 +389,13 @@ header {
 ------------------------------------------------------*/
 
 .aboutme h1 {
-	font-size: 50px;
-	line-height: 50px;
+	font-size: 42px;
+	line-height: 42px;
 }
 .aboutme h2 {
-	font-size: 32px;
-	line-height: 36px;
-	margin-bottom: 20px;
+	font-size: 26px;
+	line-height: 26px;
+	margin-bottom: 6px;
 }
 .aboutme {
 	background:#219ebc;
